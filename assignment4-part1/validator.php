@@ -453,7 +453,7 @@ if($numValid == 13)
 
 	print '<body>';
 		print '<p>No Errors</p>';
-		print '<form name="noerror" method="post" action="http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment4-part1/madlib.php">';
+		print '<form name="noerror" method="post" action="assignment4-part1/madlib.php">';
 		print '<input name="submit" type="submit" value="View MadLib" />';
 		print '</body>';
 		print '</html>';
@@ -473,7 +473,7 @@ else
 
 	print '<body>';
 		print '<p>Your Form had some errors</p>';
-		print '<form name="noerror" method="post" action="http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment4-part1/page_index.php">';
+		print '<form name="noerror" method="post" action="assignment4-part1/page_index.php">';
 		print '<input name="submit" type="submit" value="Fix Form" />';
 		print '</body>';
 		print '</html>';

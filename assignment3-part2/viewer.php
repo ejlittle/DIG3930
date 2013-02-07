@@ -11,11 +11,11 @@
 <body>
 
 <?
-$orders = "http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment3-part2/orders.txt";
-$acme = "http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment3-part2/acme.txt";
-$farmerbob = "http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment3-part2/farmerbob.txt";
-$widgets = "http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment3-part2/widgets.txt";
-$errors = "http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment3-part2/errors.txt";
+$orders = "assignment3-part2/orders.txt";
+$acme = "assignment3-part2/acme.txt";
+$farmerbob = "assignment3-part2/farmerbob.txt";
+$widgets = "assignment3-part2/widgets.txt";
+$errors = "assignment3-part2/errors.txt";
 
 if($_POST["files"] == 1)
 {
@@ -65,7 +65,7 @@ else
 ?>
 
 <div id="backform">
-	<form name="fileSelector" method="post" action="http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment3-part2/page_index.php">
+	<form name="fileSelector" method="post" action="assignment3-part2/page_index.php">
     	<input name="backBtn" type="submit" value="Go Back" />
     </form>
 </div>

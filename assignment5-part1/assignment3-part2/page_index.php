@@ -11,11 +11,11 @@
 <body>
 
 <?
-$orders = "http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment3-part2/orders.txt";
-$acme = "/home/students/elittle/public_html/DIG3930/assignment3-part2/acme.txt";
-$farmerbob = "/home/students/elittle/public_html/DIG3930/assignment3-part2/farmerbob.txt";
-$widgets = "/home/students/elittle/public_html/DIG3930/assignment3-part2/widgets.txt";
-$errors = "/home/students/elittle/public_html/DIG3930/assignment3-part2/errors.txt";
+$orders = "assignment3-part2/orders.txt";
+$acme = "assignment3-part2/acme.txt";
+$farmerbob = "assignment3-part2/farmerbob.txt";
+$widgets = "assignment3-part2/widgets.txt";
+$errors = "assignment3-part2/errors.txt";
 
 $contents = file_get_contents($orders);
 //print $contents;
@@ -52,7 +52,7 @@ foreach ($order_array as $key => $value)
 }
 ?>
 <div id="viewform">
-<form name="fileViewer" method="post" action="http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment5-part1/assignment3-part2/viewer.php">
+<form name="fileViewer" method="post" action="assignment5-part1/assignment3-part2/viewer.php">
 	<select name="files">
     	<option value="1">orders.txt</option>
         <option value="2">acme.txt</option>

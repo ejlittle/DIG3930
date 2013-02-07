@@ -4,7 +4,7 @@
     $delete_query = "DELETE FROM assignment4_part2";
     $delete_result = mysql_query($delete_query) or die("DELETE failed");
     
-    $master_file = file_get_contents("http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment4-part2/orders.txt");
+    $master_file = file_get_contents("assignment4-part2/orders.txt");
             
     $master_array = split("[,]", $master_file);
     

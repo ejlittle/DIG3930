@@ -13,11 +13,11 @@
 <?
 include("db_connect.php");
 
-$orders = "http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment4-part2/orders.txt";
-$acme = "/home/students/elittle/public_html/DIG3930/assignment4-part2/acme.txt";
-$farmerbob = "/home/students/elittle/public_html/DIG3930/assignment4-part2/farmerbob.txt";
-$widgets = "/home/students/elittle/public_html/DIG3930/assignment4-part2/widgets.txt";
-$errors = "/home/students/elittle/public_html/DIG3930/assignment4-part2/errors.txt";
+$orders = "assignment4-part2/orders.txt";
+$acme = "assignment4-part2/acme.txt";
+$farmerbob = "assignment4-part2/farmerbob.txt";
+$widgets = "assignment4-part2/widgets.txt";
+$errors = "assignment4-part2/errors.txt";
 
 $contents = file_get_contents($orders);
 //print $contents;
@@ -62,7 +62,7 @@ foreach ($order_array as $key => $value)
 }
 ?>
 <div id="viewform">
-<form name="fileViewer" method="post" action="http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment4-part2/viewer.php">
+<form name="fileViewer" method="post" action="assignment4-part2/viewer.php">
 	<select name="files">
     	<option value="1">orders.txt</option>
         <option value="2">acme.txt</option>

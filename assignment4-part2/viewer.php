@@ -13,11 +13,11 @@
 <?
 include("db_connect.php");
 
-$orders = "http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment4-part2/orders.txt";
-$acme = "http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment4-part2/acme.txt";
-$farmerbob = "http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment4-part2/farmerbob.txt";
-$widgets = "http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment4-part2/widgets.txt";
-$errors = "http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment4-part2/errors.txt";
+$orders = "assignment4-part2/orders.txt";
+$acme = "assignment4-part2/acme.txt";
+$farmerbob = "assignment4-part2/farmerbob.txt";
+$widgets = "assignment4-part2/widgets.txt";
+$errors = "assignment4-part2/errors.txt";
 
 if($_POST["files"] == 1)
 {
@@ -123,7 +123,7 @@ mysql_close($connect);
 ?>
 
 <div id="backform">
-	<form name="fileSelector" method="post" action="http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment4-part2/page_index.php">
+	<form name="fileSelector" method="post" action="assignment4-part2/page_index.php">
     	<input name="backBtn" type="submit" value="Go Back" />
     </form>
 </div>

@@ -433,11 +433,11 @@ if($numValid == 13)
     if(isset($_POST['form13'])) {
         setcookie("form13", $_POST['form13'], time()+360);
     }
-	header('Location: http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment5-part1/assignment3-part1/madlib.php');
+	header('Location: assignment5-part1/assignment3-part1/madlib.php');
 }
 else
 {
-	header('Location: http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment5-part1/assignment3-part1/page_index.php');
+	header('Location: assignment5-part1/assignment3-part1/page_index.php');
 }
 ?>
 

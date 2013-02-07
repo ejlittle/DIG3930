@@ -3,6 +3,6 @@
 		<channel>
 				<title>Inserted and Deleted Orders for Assignment 6 Part1</title>
 				<description>Farmer Bob, ACME, and Widgets can check here to see if there order statuses have been deleted or if any  new orders have been submitted.  I'm not entirely sure why anybody would subscribe to this feed, but I have to make it for an assignment.  I have a huge penis.</description>
-				<link>http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment6-part1/orders.xml</link>
+				<link>assignment6-part1/orders.xml</link>
 		</channel>
 	</rss>

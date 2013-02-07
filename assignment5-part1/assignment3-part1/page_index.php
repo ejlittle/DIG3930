@@ -11,7 +11,7 @@
 <body>
 
 <div id="libform">
-	<form name="madlib" method="post" action="http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment5-part1/assignment3-part1/validator.php">
+	<form name="madlib" method="post" action="assignment5-part1/assignment3-part1/validator.php">
     	<label>1. Noun</label>
 			<input name="form1" type="text" value="<? if (isset($_COOKIE['form1'])) {
                                                                 print $_COOKIE['form1'];

@@ -6,8 +6,8 @@
     } else {
 	
     //require("includes/db_connect.php");
-	$connectComments = mysql_connect("localhost","er321690","e2292265") or die("Comments Connection failed");
-    $selectedCommentsDatabase = mysql_select_db("er321690",$connectComments) or die("Comments Database selected failed");
+	$connectComments = mysql_connect("localhost","","") or die("Comments Connection failed");
+    $selectedCommentsDatabase = mysql_select_db("",$connectComments) or die("Comments Database selected failed");
 	
 	$connectBlog = mysql_connect("localhost","dig3930_blog","dig3930_blog") or die("Blog Connection failed");
 	$selectedBlogDatabase = mysql_select_db("dig3930_blog",$connectBlog) or die("Blog Database selected failed");
@@ -30,7 +30,7 @@
 			{
 				$entered_title = "Comment on story ".$row['story_title'];
 				$entered_description = $_POST['comment']." by ".$_SESSION['logged_in_user']." on ".date('F j, Y, g:i a').".";
-				$new_item = "<item>\n\t<title>".$entered_title."</title>\n\t<description>".$entered_description."</description>\n\t<link>http://sulley.dm.ucf.edu/~elittle/DIG3930/assignment6-part2/blog.php</link>\n</item>\n";
+				$new_item = "<item>\n\t<title>".$entered_title."</title>\n\t<description>".$entered_description."</description>\n\t<link>assignment6-part2/blog.php</link>\n</item>\n";
 				$updated_rss = $rss_start.$new_item.$rss_end;
 			}
 		//print "<pre>".htmlentities($updated_rss)."</pre>";
