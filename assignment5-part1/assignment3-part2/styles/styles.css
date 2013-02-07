@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	font-family: sans-serif;
+}
+
+#backform
+{
+	position: absolute;
+	left: 15em;
+	top: 2em;	
+}
+
+#viewform
+{
+	position: absolute;
+	left: 2em;
+	top: 2em;
+}
+
+#printr
+{
+	position: absolute;
+	right: 40px;
+	top: 20px;
+	border: 1px solid #000;
+	margin: 10px;
+}

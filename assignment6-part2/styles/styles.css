@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+div#content-container
+{
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	height: 100%;
+	border: 5px ridge #000;
+	background color: #FFFFFF;
+}
+
+div#content
+{
+	padding: 5px;
+	border: 1px solid #000;
+	background-color:#00FF66;
+}
+
+div#comment
+{
+	padding: 5px;
+	border: 1px solid #000;
+	background-color:#66CCFF;
+}
+
+div#content-date
+{
+	height: 20px;
+	float: right;
+	padding: 2px;
+}
+
+textarea#input-box
+{
+	width: 500px;
+	height: 200px;
+	border: 5px groove #000;
+}
+
+span.title
+{
+	font-size: 24px;
+	text-decoration: underline;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+span.body
+{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+span.date
+{
+	font-family: Arial, Helvetica, sans-serif;	
+	font-style: italic;
+}

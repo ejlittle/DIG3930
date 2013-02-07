@@ -1,0 +1,12 @@
+body {
+	background-color:#333;
+	color:#CCC;
+	font-family: Verdana, Geneva, sans-serif;
+}
+			.nothing { border:0px;cellspacing=0px;}
+			.shorter {width: 135px;}
+			.artist {width: 80px;}
+			.tiny {width: 10px;}
+			table{width: 950px;}
+			.fifty {width: 50px;}
+			.sevenfive {width:75px;}

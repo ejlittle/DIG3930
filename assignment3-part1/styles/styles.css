@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+#libform
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:800px;
+	height:500px;	
+}
+
+label
+{
+	width: 9em;
+	float: left;
+	text-align: right;
+	margin-right: 0.5em;
+	display: block;
+}
+
+body
+{
+	font-family: sans-serif;
+}
+
+#highlightlib
+{
+	position:absolute;
+	left:110px;
+	top:100px;
+	width:100px;
+}
+
+#editlib
+{
+	position:absolute;
+	left:10px;
+	top:100px;
+	width:100px;
+}
+
+SPAN.highlight
+{
+	background-color:#FFFF00;
+}
+
+SPAN.missing
+{
+	color: #FF0000;
+	font-weight: 900;
+}
+
+#printr
+{
+	position: absolute;
+	right: 40px;
+	top: 20px;
+	border: 1px solid #000;
+	margin: 10px;
+}

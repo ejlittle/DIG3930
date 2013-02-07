@@ -1,0 +1,18 @@
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#333;
+	color:#CCC;
+}
+
+.lib, .lib_highlighted {
+}
+
+.lib_highlighted {
+	background-color:#FF0;
+	color: black;
+}
+
+.error_msg {
+	color: #F00;
+	margin-left:10px;
+}
